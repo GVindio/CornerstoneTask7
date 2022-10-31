@@ -12,6 +12,6 @@ resource "aws_instance" "app_deployments" {
 
 
   tags = {
-    Name = "CornerStoneTask7"
+    Name = "app_deployments"
   }
 }
